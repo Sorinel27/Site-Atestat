@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+@import url(https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
+html, body{
+  background: black;
+}
+body{
+height: 100%;
+max-height: 1700px;
+}
+#upbox{
+  height: 10%;
+  width: 80%;
+  background: black;
+  position: absolute;
+  top: 110px;
+  left: 150px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.inupbox1{
+  height: 100%;
+  width: 20%;
+}
+.inupbox2{
+  height: 100%;
+  width: 20%;
+  left: 219px;
+}
+.inupbox3{
+   height: 100%;
+  width: 20%;
+  left: 438px;
+}
+.inupbox4{
+   height: 100%;
+  width: 20%;
+  left: 657px;
+}
+
+.inupbox5{
+   height: 100%;
+  width: 20%;
+  left: 876px;
+}
+
+#inupbox{
+  position: absolute;
+  text-align: center;
+  font-family: 'Do Hyeon', sans-serif;
+  line-height: 60px;
+  color: lime;
+  font-size: 20px;
+}
+#inupbox:hover{
+  box-shadow: 0 0 0 3.2px lime;
+  cursor: pointer;
+  transition-property: all;
+  transition-timing-function: ease-out;
+  transition-delay: 200ms;
+  border-radius: 3px;
+}
+#cc1{
+  box-sizing: border-box;
+  left: 50px;
+  font-size: 22px;
+  line-height: 16px;
+  position: absolute;
+  color: gray;
+  clear: both;
+  bottom: 35px;
+}
+#downcredits{
+  width: 150%;
+  height: 30%;
+  bottom: -979px;
+  left: 35px;
+  background: transparent;
+  position: absolute;
+  max-width: 94%;
+  font-family: 'Saira', sans-serif;
+  margin-bottom: 0px; 
+  box-sizing: border-box;
+  box-sizing: inherit;
+  text-align: center;
+  border-radius: 10px;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 40px;
+  text-align:center;
+  height:200px;
+  width:600px;
+  display:block;
+  position:absolute;
+  color:white;
+  top: 0;
+  bottom:0;
+   left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+
+#loginbox{
+  font-family: 'Saira', sans-serif;
+  text-align: center;
+  font-size: 14.2px;
+  height: 40px;
+  width: 100px;
+  background:linear-gradient(to bottom, #17632b 5%, #5cbf2a 100%);
+  background-color:#17632b;
+  position: absolute;
+  box-sizing: border-box;
+  right: 30px;
+  border-color: green;
+  top: 16px;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  line-height: 40px;
+  text-shadow:0px 1px 0px #177009;
+}
+#loginbox:hover{
+  cursor: pointer;
+  box-shadow: 0 0 0 1.7px white;
+  cursor: pointer;
+  transition-property: all;
+  transition-timing-function: ease-out;
+  transition-delay: 200ms;
+  border-radius: 3px;
+
+}
+#authbox{
+  background: white;
+  position: absolute;
+  height: 820px; 
+  width: 750px;
+  top: 350px;
+  left: 310px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: 'Do Hyeon', sans-serif;
+  color: black;
+}
+#authboxopa{
+  opacity: 70%;
+}
+.authbigwhitebox{
+  text-align: center;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 25px;
+}
+#faceblogo{
+  background: transparent;
+  position: absolute;
+  bottom: -959px;
+  left: 520px;
+}
+#instagramlogo{
+  background: transparent;
+  position: absolute;
+  bottom: -959px;
+  left: 560px;
+  box-sizing: border-box;
+  border: 4px;
+}
+#githublogo{
+  background: transparent;
+  position: absolute;
+  bottom: -959px;
+  left: 600px;
+}
+#maindirectory{
+  background: transparent;
+  position: absolute;
+  left: 45px;
+  top: 18.5px;
+}
+#contnou{
+  background: lightgreen;
+  width: 560px;
+  height: 760px;
+  position: absolute;
+  box-sizing: border-box;
+  border-radius: 3px;
+  top: 40px;
+  left: 98.5px;
+  text-align: center;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+input{
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  font-family: 'Saira', sans-serif;
+  border-color: transparent;
+}
+.formchange{
+  left: 100px;
+}
+.inputexistent{
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 4px;
+  left: 210px;
+  height: 26px;
+  width: 140px;
+}
+#cursorsubmit{
+  cursor: pointer;
+}
+
+.newandold{
+  font-size: 20px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
